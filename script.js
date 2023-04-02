@@ -46,6 +46,14 @@ for (let i = 0; i < 6; i++) {
     input.addEventListener('focus', e => {
       activeInput = e.target;
     });
+    input.style.width = '75px';
+    input.style.height = '75px';
+    input.style.border = '2px solid black';
+    input.style.borderRadius = '5px';
+    input.style.backgroundColor = '#f2f2f2';
+    input.style.fontSize = '20px';
+    input.style.fontWeight = 'bold';
+    input.style.boxShadow = '5px 5px 5px #cccccc';
     boxNumber++;
     root.appendChild(input);
   }
